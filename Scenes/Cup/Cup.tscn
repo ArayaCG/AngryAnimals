@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://coi2wg7d5ftmd"]
+
+[ext_resource type="Texture2D" uid="uid://c3yk74io24a4u" path="res://assets/env/elementWood004.png" id="1_1tkc5"]
+[ext_resource type="Texture2D" uid="uid://l70nnxx6t27v" path="res://assets/env/elementWood015.png" id="2_jdgvp"]
+
+[node name="Cup" type="StaticBody2D"]
+
+[node name="WoodSprites" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="WoodSprites"]
+texture = ExtResource("1_1tkc5")
+
+[node name="Sprite2D2" type="Sprite2D" parent="WoodSprites"]
+texture = ExtResource("1_1tkc5")
+flip_h = true
+
+[node name="Sprite2D3" type="Sprite2D" parent="WoodSprites"]
+texture = ExtResource("2_jdgvp")
